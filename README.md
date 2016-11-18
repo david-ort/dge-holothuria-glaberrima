@@ -7,10 +7,10 @@
   species of fishes (Astyanax, Styygicthys, Sinocheilus) through data obtained from transcriptomics 
   to determine if there is any genetic convergence
   
-  ++ step 1 : de novo assembly on Stygicthys raw data files using Trinity.
-  ++ step 2 : mapping our assembled files against 14,000 transcriptomes using bowtie2.
-  ++ step 3 : obtain our sam output and convert it into quantification tables using RSEM.
-  ++ step 4 : Visualize our DGE data to determine if there is any convergence between these species using eBseq or edgeR.
++ step 1 : de novo assembly on Stygicthys raw data files using Trinity.
++ step 2 : mapping our assembled files against 14,000 transcriptomes using bowtie2.
++ step 3 : obtain our sam output and convert it into quantification tables using RSEM.
++ step 4 : Visualize our DGE data to determine if there is any convergence between these species using eBseq or edgeR.
 
 ###Phylogeny scripts:
 
