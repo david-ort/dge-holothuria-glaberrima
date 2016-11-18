@@ -2,11 +2,10 @@
 
 ##Phylogeny Project description:
 
-+ Working under the supervision of Prof. Humberto Ortiz Zuazaga, Ricardo Betancourt,
-  and Dahiana Arcila I'm currently trying to find Diferential Expressions from different 
-  species of fishes (Astyanax, Styygicthys, Sinocheilus) through data obtained from transcriptomics 
-  to determine if there is any genetic convergence.
-  
+Working under the supervision of Prof. Humberto Ortiz Zuazaga, Ricardo Betancourt,
+and Dahiana Arcila I'm currently trying to find Diferential Expressions from different 
+species of fishes (Astyanax, Styygicthys, Sinocheilus) through data obtained from transcriptomics 
+to determine if there is any genetic convergence.
 + step 1 : de novo assembly on Stygicthys raw data files using Trinity.
 + step 2 : mapping our assembled files against 14,000 transcriptomes using bowtie2.
 + step 3 : obtain our sam output and convert it into quantification tables using RSEM.
