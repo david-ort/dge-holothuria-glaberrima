@@ -11,7 +11,7 @@ to determine if there is any genetic convergence.
 + step 3 : obtain our sam output and convert it into quantification tables using RSEM.
 + step 4 : Visualize our DGE data to determine if there is any convergence between these species using eBseq or edgeR.
 
-###Phylogeny scripts:
+###Scripts:
 
 + trinity_scripts.txt : Trinity scripts used for de novo assembly on Stygicthys.
 + sra_scripts.txt : scripts used to download cave & surface (Astyanax & Sinocheilus) fish data from SRA to assemble.
