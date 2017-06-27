@@ -31,17 +31,6 @@ dge = DGEList(counts=data, group=group)
 dge <- estimateCommonDisp(dge)
 dge <- estimateTagwiseDisp(dge)
 
-et <- exactTest(dge, pair=c("Day_20_12_2_Post-injury", "Uninjured_Radial_Organ"))
-etp <- topTags(et, n=100000)
-etp$table$logFC = -etp$table$logFC
-pdf("pepino-edgeR-MA-20-12-2vsUNIN-plot.pdf")
-plot(
-  etp$table$logCPM,
-  etp$table$logFC,
-  xlim=c(-3, 20), ylim=c(-12, 12), pch=20, cex=.3,
-  col = ifelse( etp$table$FDR < .2, "red", "black" ))
-dev.off()
-
 pdf("pepino-edgeR-MDS.pdf")
 plotMDS(dge, labels=labels)
 dev.off()
