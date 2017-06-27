@@ -35,9 +35,3 @@ plot(
   xlim=c(-3, 20), ylim=c(-12, 12), pch=20, cex=.3,
   col = ifelse( etp$table$FDR < .2, "red", "black" ))
 dev.off()
-
-pdf("pepino-edgeR-MDS.pdf")
-plotMDS(dge, labels=labels)
-dev.off()
-
-write.csv(etp$table, "pepino-edgeR.csv")
