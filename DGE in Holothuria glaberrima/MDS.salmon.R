@@ -22,7 +22,7 @@ data <- readDGE(files)
 print(data)
 head(data$counts)
 
-group <- c(rep("Day_20_12_2_Post-injury", 6), rep("Uninjured_Radial_Organ",2))
+group <- c(rep("Day_20_Post-injury", 2), rep("Day_12_Post-injury", 2), rep("Day_2_Post-injury", 2), rep("Uninjured_Radial_Organ",2))
 
 dim(data)
 length(group)
@@ -31,8 +31,6 @@ dge = DGEList(counts=data, group=group)
 dge <- estimateCommonDisp(dge)
 dge <- estimateTagwiseDisp(dge)
 
-pdf("pepino-edgeR-MDS.pdf")
-plotMDS(dge, labels=labels)
+pdf("MDS.pdf")
+plotMDS(dge, labels=labels, xlab = "mds[1]", ylab = "mds[2]")
 dev.off()
-
-write.csv(etp$table, "pepino-edgeR.csv")
