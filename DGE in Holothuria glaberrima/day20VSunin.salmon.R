@@ -28,12 +28,12 @@ dge <- estimateTagwiseDisp(dge)
 et <- exactTest(dge, pair=c("Day_20_Post-injury", "Uninjured_Radial_Organ"))
 etp <- topTags(et, n=100000)
 etp$table$logFC = -etp$table$logFC
-pdf("pepino-edgeR-MA-20vsUNIN-plot.pdf")
+pdf("MA_DAY20VSUNIN.pdf")
 plot(
   etp$table$logCPM,
   etp$table$logFC,
   xlim=c(-3, 20), ylim=c(-12, 12), pch=20, cex=.3,
-  col = ifelse( etp$table$FDR < .2, "red", "black" ))
+  col = ifelse( etp$table$FDR < .2, "red", "black"  ),
+  xlab = "A",
+  ylab = "M")
 dev.off()
-
-write.csv(etp$table, "pepino-edgeR.csv")
