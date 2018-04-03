@@ -2,7 +2,7 @@
 # Author      : David J. Ortiz Rivera
 # Project     : Differential Gene Expression in Holothuria Glaberrima
 # File        : mds.R
-# Description : Create MDS plot for all groups (Day 2, Day 12, Day 20, and Uninjured)
+# Description : Create MDS plot for all groups (Day 2, Day 12, Day 20, and Uninjured Normalized)
 
 library(methods)
 library(Biobase)
