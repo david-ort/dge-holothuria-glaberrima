@@ -1,7 +1,7 @@
 #
 # Author      : David J. Ortiz Rivera
 # Project     : Differential Gene Expression in Holothuria Glaberrima
-# File        : mds.R
+# File        : volvano-plot-day-20.R
 # Description : Create Volcano plot for Day 20 and  Uninjured Normalized.
 
 library(DESeq2)
