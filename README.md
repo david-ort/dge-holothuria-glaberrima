@@ -25,5 +25,3 @@ Scripts used for the project
 
 ### Contact Information:
 + david.ortiz11@upr.edu
-  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.836113.svg)](https://doi.org/10.5281/zenodo.836113)
