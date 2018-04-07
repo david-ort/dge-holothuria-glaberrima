@@ -20,7 +20,7 @@ dge <- estimateTagwiseDisp(dge)
 et <- exactTest(dge, pair=c("Day_12_Post-injury", "Uninjured_Radial_Organ"))
 etp <- topTags(et, n=100000)
 etp$table$logFC = -etp$table$logFC
-pdf("ma-plot-day-12-vs-unin.pdf")
+pdf("ma-plot-day-12.pdf")
 plot(
   etp$table$logCPM,
   etp$table$logFC,
