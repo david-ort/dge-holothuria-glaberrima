@@ -7,6 +7,13 @@ Working under the supervision of Prof. Humberto Ortiz Zuazaga, I set out to find
 + step 3 : indexing and quantifying using Salmon.
 + step 4 : create an MDS, 3 MA plots, and 3 volcano plots for DGE analysis using edgeR.
   
+
+| Files         | Description           |
+| ------------- |-----------------------|
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
+  
 ### Contact Information:
   + david.ortiz11@upr.edu
   
