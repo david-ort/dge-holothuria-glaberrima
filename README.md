@@ -23,5 +23,5 @@ Scripts used for the project
 | volcano-plot-day-12.R | volcanto plot for day 12 vs uninjured normalized
 | volcano-plot-day-20.R | volcanto plot for day 20 vs uninjured normalized
 
-### Contact Information:
+### Contact Information
 + david.ortiz11@upr.edu
