@@ -1,4 +1,4 @@
-# Differential Gene Expression in Holothuria glaberrima using Salmon & edgeR description:
+# Differential Gene Expression in Holothuria glaberrima using Salmon & edgeR
 
 Working under the supervision of Prof. Humberto Ortiz Zuazaga, I set out to analyze Differential Gene Expression on a sea cucumber species; Holothuria glaberrima. 
 
